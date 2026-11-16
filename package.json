@@ -1,0 +1,44 @@
+{
+  "name": "dsh-wide-chat",
+  "version": "0.1.0",
+  "description": "Drag to widen the chat column in the DSH web GUI (520-2400px, remembered). DSH 网页版聊天列宽度可拖拽调节插件。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    },
+    "engines": {
+      "dsh": ">=0.2.0-rc.2"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "ui",
+    "layout",
+    "chat-width",
+    "resizable",
+    "聊天宽度"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}

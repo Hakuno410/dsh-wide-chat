@@ -1,0 +1,7 @@
+# dsh-wide-chat bundle 层：插入插件行。
+# host 半（exports "."）几乎什么都不做，只让 loader 有一行可挂载；
+# client 半（exports "./client"）跑在 Web GUI 里，注入 CSS 变量 + 一根拖拽把手。
+- insert:
+    - id: wide-chat
+      name: 'dsh-wide-chat'
+      config: {}

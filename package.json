@@ -19,11 +19,11 @@
   "author": "Hakuno410",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hakuno410/Hakuno-and-The-Long-March.git"
+    "url": "git+https://github.com/Hakuno410/dsh-wide-chat.git"
   },
-  "homepage": "https://github.com/Hakuno410/Hakuno-and-The-Long-March#readme",
+  "homepage": "https://github.com/Hakuno410/dsh-wide-chat#readme",
   "bugs": {
-    "url": "https://github.com/Hakuno410/Hakuno-and-The-Long-March/issues"
+    "url": "https://github.com/Hakuno410/dsh-wide-chat/issues"
   },
   "dsh": {
     "bundle": {

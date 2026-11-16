@@ -14,7 +14,7 @@
 ### 方式一：一条命令（推荐）
 
 ```sh
-dsh plugin --profile desktop add github:Hakuno410/Hakuno-and-The-Long-March
+dsh plugin --profile desktop add github:Hakuno410/dsh-wide-chat
 ```
 
 装完**重启 DSH**（新增 bundle 需要重启才会下发客户端模块）。
@@ -28,7 +28,7 @@ dsh plugin --profile desktop add github:Hakuno410/Hakuno-and-The-Long-March
 ### 方式三：本地
 
 ```sh
-git clone https://github.com/Hakuno410/Hakuno-and-The-Long-March.git
+git clone https://github.com/Hakuno410/dsh-wide-chat.git
 dsh plugin --profile desktop add link:"<克隆下来的目录>"
 ```
 

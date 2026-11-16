@@ -1,7 +1,7 @@
 {
   "name": "dsh-wide-chat",
   "version": "0.1.0",
-  "description": "Drag to widen the chat column in the DSH web GUI (520-2400px, remembered). DSH 网页版聊天列宽度可拖拽调节插件。",
+  "description": "Drag the chat column's right edge to widen it (520-2400px, remembered across restarts). Pure front-end, no build, no host services. DSH 网页版聊天列宽度可拖拽调节插件。",
   "type": "module",
   "main": "./lib/index.js",
   "exports": {
@@ -16,6 +16,15 @@
     "LICENSE"
   ],
   "license": "MIT",
+  "author": "Hakuno410",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hakuno410/Hakuno-and-The-Long-March.git"
+  },
+  "homepage": "https://github.com/Hakuno410/Hakuno-and-The-Long-March#readme",
+  "bugs": {
+    "url": "https://github.com/Hakuno410/Hakuno-and-The-Long-March/issues"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
